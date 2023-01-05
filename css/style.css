@@ -52,3 +52,6 @@ i{
     background-color: #0D0D0D;
     display: flex;
 }
+.items-card{
+    box-shadow: 4px 4px 4px rgb(162, 162, 162) !important;
+}
