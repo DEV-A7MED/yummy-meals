@@ -39,7 +39,10 @@ $(".side-nav-menu i.open-close-icon").click(() => {
         openSideNav()
     }
 })
-
+$('.logo').click(()=>{
+    searchByName("")
+    
+})
 function displayMeals(arr) {
     let mealsCards = "";
     for (let i = 0; i < arr.length; i++) {
