@@ -55,3 +55,15 @@ i{
 .items-card{
     box-shadow: 4px 4px 4px rgb(162, 162, 162) !important;
 }
+@media (max-width:767px){
+    .nav-header{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .logo{
+        width: 35px;
+    }
+    .open-close-icon{
+        font-size: 1.5em;
+    }
+}
